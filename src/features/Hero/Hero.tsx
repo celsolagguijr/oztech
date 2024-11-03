@@ -59,7 +59,7 @@ function Hero() {
           </a>
           <a
             href="#"
-            className=" rounded-md px-3.5 py-2.5 text-sm text-center font-semibold text-blue-600 shadow-sm bg-slate-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+            className="rounded-md px-3.5 py-2.5 text-sm text-center font-semibold text-blue-600 shadow-sm bg-slate-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
           >
             Download My CV
           </a>
