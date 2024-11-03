@@ -24,13 +24,16 @@
     "baseUrl": "./",
     "paths": {
       "@src/*": ["./src/*"],
-      "@src": ["./src"],     
+      "@src": ["./src"],
       "@pages/*": ["./src/pages/*"],
       "@components/*": ["./src/components/*"],
       "@layouts/*": ["./src/layouts/*"],
-      "@layouts": ["./src/layouts"]
+      "@layouts": ["./src/layouts"],
+      "@assets/*": ["./src/assets/*"],
+      "@assets": ["./src/assets"],
+      "@shared/*": ["./src/shared/*"],
+      "@shared": ["./src/shared"]
     }
-  },
   },
   "include": ["src"]
 }
