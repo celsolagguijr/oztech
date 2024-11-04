@@ -4,7 +4,7 @@ import profile from '@assets/images/profile.jpg';
 
 function Hero() {
   return (
-    <div className="relative border-b">
+    <div className="relative border-b bg-slate-50">
       <GridBackGround />
       <Container>
         <div className="py-8 lg:px-56">
