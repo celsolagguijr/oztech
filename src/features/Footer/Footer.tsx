@@ -4,7 +4,10 @@ import contacts from '@shared/contacts';
 
 function Footer() {
   return (
-    <Disclosure as="div" className="bg-gradient-to-r from-blue-600 to-blue-900">
+    <Disclosure
+      as="footer"
+      className="bg-gradient-to-r from-blue-600 to-blue-900"
+    >
       <Container>
         <div className="flex items-center justify-between">
           <p className="text-sm text-white">

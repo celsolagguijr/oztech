@@ -8,7 +8,7 @@ import Footer from '@src/features/Footer';
 function LandingPage() {
   return (
     <Main>
-      <Page title="Celso Laggui Jr">
+      <Page title="Celso Laggui Jr - Sofware Developer">
         <Hero />
         <Services />
         <TechStack />

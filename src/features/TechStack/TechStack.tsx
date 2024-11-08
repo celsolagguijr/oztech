@@ -5,10 +5,10 @@ import { Disclosure } from '@headlessui/react';
 import useTechStacks from './useTechStacks';
 
 function TechStack() {
-  const { filters, addFilter, techStacks, tags } = useTechStacks();
+  const { filters, addFilter, techStacks, tags, selectAll } = useTechStacks();
 
   return (
-    <Disclosure as="div" className="bg-slate-50">
+    <Disclosure as="section" className="bg-slate-50">
       <Container>
         <Disclosure as="div" className="mb-6">
           <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-900 bg-clip-text text-transparent md:text-4xl">
@@ -20,7 +20,12 @@ function TechStack() {
         </Disclosure>
 
         <Disclosure as="div" className="mb-6">
-          <Filter items={tags} filters={filters} addFilter={addFilter} />
+          <Filter
+            items={tags}
+            filters={filters}
+            addFilter={addFilter}
+            selectAll={selectAll}
+          />
         </Disclosure>
 
         <Disclosure as="div">

@@ -8,7 +8,7 @@ interface MainProps {
 
 const Main: React.FC<MainProps> = ({ children }) => {
   return (
-    <Disclosure as="div" className="relativew w-fullbg-white">
+    <Disclosure as="main" className="relativew w-fullbg-white">
       <Navigation />
       {children}
     </Disclosure>

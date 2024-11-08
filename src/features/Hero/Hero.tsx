@@ -1,10 +1,14 @@
 import GridBackGround from '@src/components/GridBackGround';
 import Container from '@src/components/Container';
 import profile from '@assets/images/profile.jpg';
+import resume from '@assets/files/CELSO LAGGUI JR- CV.pdf';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPaperPlane } from '@fortawesome/free-regular-svg-icons';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 function Hero() {
   return (
-    <div className="relative border-b bg-slate-50">
+    <section className="relative border-b bg-slate-50">
       <GridBackGround />
       <Container>
         <div className="py-8 lg:px-56">
@@ -55,21 +59,25 @@ function Hero() {
 
           <div className="flex flex-col gap-2 mt-6 align-center justify-center md:flex-row md:mt-10 md:gap-6">
             <a
-              href="#"
+              href="mailto:celsolaggui@gmail.com"
               className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm text-center font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-              Check out my projects
+              <span className="mr-2">Email Me</span>
+              <FontAwesomeIcon icon={faPaperPlane} />
             </a>
+
             <a
-              href="#"
-              className="rounded-md px-3.5 py-2.5 text-sm text-center font-semibold text-blue-600 shadow-sm bg-slate-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+              href={resume}
+              target="_blank"
+              className="rounded-md px-3.5 py-2.5 text-sm text-center font-semibold  text-blue-600 shadow-sm bg-slate-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
-              Download My CV
+              <span className="mr-2">View My Resume</span>
+              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
             </a>
           </div>
         </div>
       </Container>
-    </div>
+    </section>
   );
 }
 

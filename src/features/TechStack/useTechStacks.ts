@@ -5,7 +5,8 @@ interface TechStackProps {
     techStacks: TechStack[],
     filters: string[],
     addFilter: (filter: string) => void,
-    tags: string[]
+    tags: string[],
+    selectAll: () => void
 }
 
 
@@ -34,11 +35,18 @@ const useTechStacks = (): TechStackProps => {
     }
 
 
+    function selectAll() {
+        setFilters(() => [])
+    }
+
+
+
     return {
         techStacks: filterTechStack(),
         filters,
         addFilter,
         tags: getTags(),
+        selectAll
     }
 
 
