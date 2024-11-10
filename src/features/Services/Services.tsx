@@ -5,14 +5,14 @@ import Service from './Service';
 
 function Services() {
   return (
-    <Disclosure as="section">
+    <Disclosure as="section" className="bg-slate-50">
       <Container>
         <Disclosure as="div" className="mb-6">
           <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-900 bg-clip-text text-transparent md:text-4xl">
-            Services
+            My Expertise
           </h1>
           <p className="text-sm text-gray-600 md:text-base lg:text-lg">
-            Here’s a list of the services I provide
+            Below are the core areas of my expertise
           </p>
         </Disclosure>
 

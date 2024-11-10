@@ -5,7 +5,7 @@ import workExperiences from '@shared/experiences';
 
 function WorkExperience() {
   return (
-    <Disclosure as="section" className="bg-slate-50">
+    <Disclosure as="section">
       <Container>
         <Disclosure as="div" className="mb-6">
           <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-900 bg-clip-text text-transparent md:text-4xl">
