@@ -13,28 +13,23 @@ function GridBackGround() {
           x="-1"
           y="-1"
         >
-          <path d="M.5 40V.5H40" fill="none" stroke-dasharray="0"></path>
+          <path d="M.5 40V.5H40" fill="none" strokeDasharray="0" />
         </pattern>
       </defs>
-      <rect
-        width="100%"
-        height="100%"
-        stroke-width="0"
-        fill="url(#:S1:)"
-      ></rect>
+      <rect width="100%" height="100%" strokeWidth="0" fill="url(#:S1:)" />
       <svg x="-1" y="-1" className="overflow-visible">
-        <rect stroke-width="0" width="39" height="39" x="241" y="241"></rect>
-        <rect stroke-width="0" width="39" height="39" x="521" y="121"></rect>
-        <rect stroke-width="0" width="39" height="39" x="1281" y="121"></rect>
-        <rect stroke-width="0" width="39" height="39" x="1481" y="281"></rect>
-        <rect stroke-width="0" width="39" height="39" x="1561" y="241"></rect>
-        <rect stroke-width="0" width="39" height="39" x="1641" y="601"></rect>
-        <rect stroke-width="0" width="39" height="39" x="161" y="681"></rect>
-        <rect stroke-width="0" width="39" height="39" x="281" y="561"></rect>
-        <rect stroke-width="0" width="39" height="39" x="121" y="201"></rect>
-        <rect stroke-width="0" width="39" height="39" x="401" y="401"></rect>
-        <rect stroke-width="0" width="39" height="39" x="1001" y="161"></rect>
-        <rect stroke-width="0" width="39" height="39" x="1001" y="361"></rect>
+        <rect strokeWidth="0" width="39" height="39" x="241" y="241" />
+        <rect strokeWidth="0" width="39" height="39" x="521" y="121" />
+        <rect strokeWidth="0" width="39" height="39" x="1281" y="121" />
+        <rect strokeWidth="0" width="39" height="39" x="1481" y="281" />
+        <rect strokeWidth="0" width="39" height="39" x="1561" y="241" />
+        <rect strokeWidth="0" width="39" height="39" x="1641" y="601" />
+        <rect strokeWidth="0" width="39" height="39" x="161" y="681" />
+        <rect strokeWidth="0" width="39" height="39" x="281" y="561" />
+        <rect strokeWidth="0" width="39" height="39" x="121" y="201" />
+        <rect strokeWidth="0" width="39" height="39" x="401" y="401" />
+        <rect strokeWidth="0" width="39" height="39" x="1001" y="161" />
+        <rect strokeWidth="0" width="39" height="39" x="1001" y="361" />
       </svg>
     </svg>
   );
