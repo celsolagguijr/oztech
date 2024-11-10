@@ -12,7 +12,7 @@ function WorkExperience() {
             Work Experience
           </h1>
           <p className="text-sm text-gray-600 md:text-base lg:text-lg">
-            My career highlights and key roles
+            My career highlights and key contributions
           </p>
         </Disclosure>
 
