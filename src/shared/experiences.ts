@@ -11,7 +11,7 @@ const experiences: ExperienceProps[] = [
   {
     title: 'Senior Software Developer',
     company: 'Radztech Business Solutions',
-    startDate: new Date('2022-06-01'),
+    startDate: new Date('2021-06-01'),
     endDate: new Date(),
     present: true,
     dutiesAndResponsibilities: [
@@ -31,7 +31,7 @@ const experiences: ExperienceProps[] = [
     title: "Job Order",
     company: "Government Service Insurance System – Cauayan Branch",
     startDate: new Date('2019-10-01'),
-    endDate: new Date('2022-06-01'),
+    endDate: new Date('2021-06-01'),
     present: false,
     dutiesAndResponsibilities: [
       "Provided technical support to address software, hardware, and network-related issues.",

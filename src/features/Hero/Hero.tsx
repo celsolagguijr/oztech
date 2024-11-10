@@ -6,6 +6,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-regular-svg-icons';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
+const noOfYears =
+  new Date().getFullYear() - new Date('2021-06-01').getFullYear();
+
 function Hero() {
   return (
     <section className="relative border-b bg-slate-50">
@@ -45,9 +48,13 @@ function Hero() {
             <p className="text-center mt-4 text-pretty text-sm font-medium text-gray-500 md:text-base lg:text-lg md:mt-6 lg:mt-8">
               As a <span className="text-gray-900">software developer</span>{' '}
               with
-              <span className="text-gray-900"> 3 years of experience</span>, I
-              leverage my <span className="text-gray-900"> programming </span>{' '}
-              👨‍💻 expertise to deliver
+              <span className="text-gray-900">
+                {' '}
+                over {noOfYears} years of experience
+              </span>
+              , I leverage my{' '}
+              <span className="text-gray-900"> programming </span> 👨‍💻 expertise
+              to deliver
               <span className="text-gray-900"> scalable </span> 📈 and{' '}
               <span className="text-gray-900">maintainable</span> 🛠️ software
               that meets client needs and{' '}
