@@ -19,9 +19,9 @@ const ExperienceItem = (props: ExperienceProps) => {
       </time>
 
       <h1 className="text-lg font-bold text-gray-800 lg:text-2xl">{title}</h1>
-      <h4 className="text-sm font-semibold text-gray-500 lg:text-lg">
+      <p className="text-sm font-semibold text-gray-500 lg:text-base">
         {company}
-      </h4>
+      </p>
 
       <ul className="mt-2 pl-4 list-disc">
         {dutiesAndResponsibilities.map((duty) => (
