@@ -1,7 +1,7 @@
 import GridBackGround from '@src/components/GridBackGround';
 import Container from '@src/components/Container';
 import profile from '@assets/images/profile.jpg';
-import resume from '@assets/files/CELSO LAGGUI JR- CV.pdf';
+import resume from '@assets/files/CELSO GONZALES LAGGUI JR - RESUME.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-regular-svg-icons';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';

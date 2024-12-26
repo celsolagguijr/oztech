@@ -15,39 +15,35 @@ const experiences: ExperienceProps[] = [
     endDate: new Date(),
     present: true,
     dutiesAndResponsibilities: [
-      "Analyze complex problems, identify root causes, and provide solutions.",
-      "Debug and resolve critical issues.",
-      "Fix bugs and issues reported by users or testers.",
-      "Oversee and participate in the deployment of the software.",
-      "Lead junior develop/s, assign tasks, and manage resources to ensure project milestone are met.",
-      "Ensure the delivery of high-quality, and efficient software.",
-      "Collaborate with Operations Department to deliver successful products.",
-      "Provide guidance and support to team members.",
-      "Regularly evaluate software systems to ensure optimal performance.",
-      "Lead a team of developers in the execution of projects, ensuring deadlines are met and quality standards are upheld."
+      "Contributed to the development of core features for a cloud-based ERP System that support various industries including Distribution, Restaurants, e-Commerce, Motorcycle Dealers and Government System.",
+      "Created dynamic and interactive dashboards tailored to client needs, offering real-time insights and advanced data visualization for strategic decision-making.",
+      "Created custom reports tailored to meet client needs and requests.",
+      "Integrated APIs, such as JNT order creation and order tracking status, to streamline logistics for the e-Commerce Industry.",
+      "Collaborated with Operations Department to deliver successful products.",
+      "Led junior sofware developers, assign tasks, and manage resources to ensure project milestone are met.",
+      "Debugged and resolved critical issues reported by users or testers."
     ],
   },
   {
-    title: "Job Order",
+    title: "Technical Support",
     company: "Government Service Insurance System – Cauayan Branch",
     startDate: new Date('2019-10-01'),
     endDate: new Date('2021-06-01'),
     present: false,
     dutiesAndResponsibilities: [
-      "Provided technical support to address software, hardware, and network-related issues.",
-      "Developed and deployed an eCard Inventory System to streamline tracking, management, and distribution of digital cards, enhancing operational efficiency and minimizing errors."
+      "Developed and deployed an eCard Inventory System to streamline tracking, management, and distribution of digital cards, resulting in reduced data redundancy, optimized disk space usage, real-time information, minimized human errors, and the ability to serve multiple clients efficiently",
+      "Provided technical support to address software, hardware, and network-related issues."
     ]
   },
   {
-    title: "Part-time Web Developer	",
+    title: "Web Developer	",
     company: "Technosite I.T. Business Solutions",
     startDate: new Date('2019-07-01'),
     endDate: new Date('2020-06-01'),
     present: false,
     dutiesAndResponsibilities: [
-      "Contributed to the development of web-based applications.",
-      "Maintained and optimized software to improve performance",
-      "Enhanced software functionality to minimize technical issues."
+      "Developed and deployed a Hotel Management System with features such as reservation, check-in/check-out, amenities and discounts management, a customer master list, and an operational dashboard for efficient monitoring and management.",
+      "Contributed to the development of web-based applications by implementing key features, optimizing performance, and enhancing functionality."
     ]
   }
 ];
