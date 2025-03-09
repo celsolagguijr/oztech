@@ -15,12 +15,12 @@ const experiences: ExperienceProps[] = [
     endDate: new Date(),
     present: true,
     dutiesAndResponsibilities: [
-      "Contributed to the development of core features for a cloud-based ERP System that support various industries including Distribution, Restaurants, e-Commerce, Motorcycle Dealers and Government System.",
+      "Contributed to the development of core features for a cloud-based ERP System that supports various industries, including Distribution, Restaurants, e-commerce, Motorcycle Dealers, and Government Accounting System.",
       "Created dynamic and interactive dashboards tailored to client needs, offering real-time insights and advanced data visualization for strategic decision-making.",
       "Created custom reports tailored to meet client needs and requests.",
-      "Integrated APIs, such as JNT order creation and order tracking status, to streamline logistics for the e-Commerce Industry.",
-      "Collaborated with Operations Department to deliver successful products.",
-      "Led junior sofware developers, assign tasks, and manage resources to ensure project milestone are met.",
+      "Integrated APIs, such as JNT order creation and order tracking status, to streamline logistics for the e-commerce Industry.",
+      "Collaborated with the Operations Department to deliver successful products.",
+      "Led junior software developers, assigned tasks, and managed resources to meet project milestones.",
       "Debugged and resolved critical issues reported by users or testers."
     ],
   },
@@ -31,7 +31,7 @@ const experiences: ExperienceProps[] = [
     endDate: new Date('2021-06-01'),
     present: false,
     dutiesAndResponsibilities: [
-      "Developed and deployed an eCard Inventory System to streamline tracking, management, and distribution of digital cards, resulting in reduced data redundancy, optimized disk space usage, real-time information, minimized human errors, and the ability to serve multiple clients efficiently",
+      "Developed and deployed an eCard Inventory System to streamline tracking, management, and distribution of  eCards, resulting in reduced data redundancy, optimized disk space usage, real-time information, minimized human errors, and the ability to serve multiple clients efficiently",
       "Provided technical support to address software, hardware, and network-related issues."
     ]
   },
