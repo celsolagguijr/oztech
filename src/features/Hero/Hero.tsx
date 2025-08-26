@@ -1,4 +1,4 @@
-import GridBackGround from '@src/components/GridBackGround';
+kimport GridBackGround from '@src/components/GridBackGround';
 import Container from '@src/components/Container';
 import profile from '@assets/images/profile.jpg';
 import resume from '@assets/files/CELSO GONZALES LAGGUI JR - RESUME.pdf';
@@ -71,15 +71,6 @@ function Hero() {
             >
               <span className="mr-2">Email Me</span>
               <FontAwesomeIcon icon={faPaperPlane} />
-            </a>
-
-            <a
-              href={resume}
-              target="_blank"
-              className="rounded-md px-3.5 py-2.5 text-sm text-center font-semibold  text-blue-600 shadow-sm bg-slate-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-            >
-              <span className="mr-2">View My Resume</span>
-              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
             </a>
           </div>
         </div>
