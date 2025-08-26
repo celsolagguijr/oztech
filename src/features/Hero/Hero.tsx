@@ -1,4 +1,4 @@
-kimport GridBackGround from '@src/components/GridBackGround';
+import GridBackGround from '@src/components/GridBackGround';
 import Container from '@src/components/Container';
 import profile from '@assets/images/profile.jpg';
 import resume from '@assets/files/CELSO GONZALES LAGGUI JR - RESUME.pdf';
